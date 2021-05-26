@@ -1,0 +1,12 @@
+//heading
+ fontFamily: "Pacifico ,cursive"
+
+//text
+ font-family: 'Montserrat', sans-serif;
+
+
+//name
+ font-family: 'Lexend', sans-serif;
+
+//signature
+ font-family: 'Allura', cursive;

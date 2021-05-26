@@ -1,0 +1,80 @@
+
+.namee {
+    font-size: 43px;
+    line-height: 57px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-45deg, #ffffff, #e2fc6c, #ffc4cc, #bda6fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%;
+    animation: dsm-animated-gradient-flow2 0.2s ease-in-out forwards;
+  }
+  .namee1 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-45deg, #ffffff, #e2fc6c, #ffc4cc, #bda6fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%;
+    animation: dsm-animated-gradient-flow2 0.2s ease-in-out forwards;
+  }
+.social_links
+{
+    padding: 1rem;
+    background: #383838;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social_links .combo
+{
+    transform: scale(0.9);
+    transition: 0.4s ease-in;
+    margin: 0 0.5rem;
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+}
+.combo .circle
+{
+    color: #f9f9f9;
+    transition: 0.4s ease-in;
+    font-size: 1em;
+}
+.combo .icon
+{
+    color: #444343;
+    font-size: 1rem;
+    transform: translateY(1px);
+    transition: 0.2s ease-in;
+}
+.combo:hover
+{
+    transform: scale(1.1);
+}
+.combo:hover , .combo:hover .icon
+{
+    color:white;
+}
+.ig:hover , .ig:hover .circle
+{
+    color:#e91e63;
+}
+.fb:hover , .fb:hover .circle
+{
+    color:#2196f3;
+}
+.yt:hover , .yt:hover .circle
+{
+    color:#f44336;
+}
+.tw:hover , .tw:hover .circle
+{
+    color:#2196f3;
+}
+.gt:hover , .gt:hover .circle{
+    color: #1f1f1f;
+}
